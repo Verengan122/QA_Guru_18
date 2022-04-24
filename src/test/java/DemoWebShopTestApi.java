@@ -28,6 +28,4 @@ public class DemoWebShopTestApi {
                 .body("Result", Matchers.is("Thank you for signing up! A verification email has been sent. We appreciate your interest."))
                 .body("Success", Matchers.is(true));
     }
-//    @Test
-//    void
 }
